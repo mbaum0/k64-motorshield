@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP bottom_left_header_02x06
+D Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+$CMP bottom_left_header_02x08
+D Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+$CMP bottom_right_header_02x08
+D Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+$CMP camera_header_01x05
+D Generic connector, single row, 01x05
+K connector
+F ~
+$ENDCMP
+#
+$CMP rpi_motor_driver_header
+D Generic connector, double row, 02x20, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+$CMP servo_header_01x03
+D Generic connector, single row, 01x03
+K connector
+F ~
+$ENDCMP
+#
+$CMP top_left_header_02x08
+D Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+$CMP top_right_header_02x10
+D Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

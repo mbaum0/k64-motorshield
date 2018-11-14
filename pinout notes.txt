@@ -1,0 +1,13 @@
+Motor Shield:
+These pin numbers were extracted from the sample code provided with the motor shield. These pins are associated with raspi pinouts (BCM numbering)
+
+PWMA1 = 6 (PHYS 31)
+PWMA2 = 13 (PHYS 33)
+PWMB1 = 20 (PHYS 38)
+PWMB2 = 21 (PHYS 40)
+
+K64:
+MotorA - PTC1, PTC2
+MotorB - PTC3, PTC4
+Camera - GND, CLK(PTB9), SI(PTB23), AO(ADC0_DP0), 3.3-5v
+Servo - GND, 5v, Input(PTC8)
