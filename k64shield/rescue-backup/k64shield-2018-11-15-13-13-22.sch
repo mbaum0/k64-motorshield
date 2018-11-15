@@ -1,6 +1,39 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:k64_pin
 LIBS:k64shield-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,56 +48,56 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L k64_pin:top_left_header_02x08 J1
+L top_left_header_02x08 J1
 U 1 1 5BEBC742
 P 6100 2850
 F 0 "J1" H 6150 3250 50  0000 C CNN
 F 1 "top_left_header_02x08" H 6150 2350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6100 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 6100 2850 50  0001 C CNN
 F 3 "" H 6100 2850 50  0001 C CNN
 	1    6100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L k64_pin:bottom_left_header_02x06 J2
+L bottom_left_header_02x06 J2
 U 1 1 5BEBC80A
 P 6100 3800
 F 0 "J2" H 6150 4100 50  0000 C CNN
 F 1 "bottom_left_header_02x06" H 6150 3400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6100 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 6100 3800 50  0001 C CNN
 F 3 "" H 6100 3800 50  0001 C CNN
 	1    6100 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L k64_pin:top_right_header_02x10 J4
+L top_right_header_02x10 J4
 U 1 1 5BEBC857
 P 7500 2550
 F 0 "J4" H 7550 3050 50  0000 C CNN
 F 1 "top_right_header_02x10" H 7550 1950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 7500 2550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 7500 2550 50  0001 C CNN
 F 3 "" H 7500 2550 50  0001 C CNN
 	1    7500 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L k64_pin:bottom_right_header_02x08 J5
+L bottom_right_header_02x08 J5
 U 1 1 5BEBCB19
 P 7500 3700
 F 0 "J5" H 7550 4100 50  0000 C CNN
 F 1 "bottom_right_header_02x08" H 7550 3200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 7500 3700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 7500 3700 50  0001 C CNN
 F 3 "" H 7500 3700 50  0001 C CNN
 	1    7500 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L k64_pin:rpi_motor_driver_header J3
+L rpi_motor_driver_header J3
 U 1 1 5BEBCC38
 P 6750 4950
 F 0 "J3" H 6750 6100 50  0000 C CNN
 F 1 "rpi_motor_driver_header" H 6750 4000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6800 5000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 6800 5000 50  0001 C CNN
 F 3 "" H 6800 5000 50  0001 C CNN
 	1    6750 4950
 	0    1    1    0   
@@ -86,12 +119,12 @@ B2
 Text Label 7800 2950 0    60   ~ 0
 B2
 $Comp
-L k64_pin:camera_header_01x05 J6
+L camera_header_01x05 J6
 U 1 1 5BEBD558
 P 8800 3250
 F 0 "J6" H 8800 3550 50  0000 C CNN
 F 1 "camera_header_01x05" H 8800 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8800 3250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 8800 3250 50  0001 C CNN
 F 3 "" H 8800 3250 50  0001 C CNN
 	1    8800 3250
 	1    0    0    -1  
@@ -117,12 +150,12 @@ AO
 Text Label 7300 2850 2    60   ~ 0
 AO
 $Comp
-L k64_pin:servo_header_01x03 J7
+L servo_header_01x03 J7
 U 1 1 5BEBE0BE
 P 8800 4000
 F 0 "J7" H 8800 4200 50  0000 C CNN
 F 1 "servo_header_01x03" H 8800 3800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8800 4000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8800 4000 50  0001 C CNN
 F 3 "" H 8800 4000 50  0001 C CNN
 	1    8800 4000
 	1    0    0    -1  
