@@ -195,9 +195,6 @@ SIG
 Text Label 7300 3800 2    60   ~ 0
 SIG
 NoConn ~ 5900 2550
-NoConn ~ 5900 2650
-NoConn ~ 5900 2750
-NoConn ~ 5900 2850
 NoConn ~ 5900 2950
 NoConn ~ 6400 2550
 NoConn ~ 6400 2650
@@ -207,68 +204,123 @@ NoConn ~ 6400 2950
 NoConn ~ 6400 3050
 NoConn ~ 6400 3150
 NoConn ~ 6400 3250
-NoConn ~ 5900 3600
-NoConn ~ 5900 3700
-NoConn ~ 5900 3800
-NoConn ~ 5900 3900
-NoConn ~ 5900 4000
-NoConn ~ 5900 4100
-NoConn ~ 6400 4100
-NoConn ~ 6400 4000
 NoConn ~ 6400 3900
-NoConn ~ 6400 3800
 NoConn ~ 6400 3700
 NoConn ~ 6400 3600
 NoConn ~ 7300 2150
 NoConn ~ 7300 2250
 NoConn ~ 7300 2350
 NoConn ~ 7300 2450
-NoConn ~ 7300 2550
 NoConn ~ 7300 2650
 NoConn ~ 7300 2750
 NoConn ~ 7300 3050
 NoConn ~ 7800 3050
-NoConn ~ 7800 2850
-NoConn ~ 7800 2750
-NoConn ~ 7800 2650
-NoConn ~ 7800 2550
 NoConn ~ 7800 2350
-NoConn ~ 7800 2250
-NoConn ~ 7800 2150
-NoConn ~ 7800 4100
-NoConn ~ 7800 4000
-NoConn ~ 7800 3800
-NoConn ~ 7800 3600
 NoConn ~ 7300 3400
 NoConn ~ 7300 3500
 NoConn ~ 7300 3600
-NoConn ~ 7300 3700
-NoConn ~ 7300 4000
-NoConn ~ 7300 4100
-NoConn ~ 6000 4700
-NoConn ~ 6100 4700
-NoConn ~ 6100 5200
-NoConn ~ 6400 4700
-NoConn ~ 6300 5200
-NoConn ~ 6500 5200
-NoConn ~ 6500 4700
-NoConn ~ 6700 4700
-NoConn ~ 6800 4700
-NoConn ~ 6900 4700
-NoConn ~ 7000 4700
-NoConn ~ 7100 4700
-NoConn ~ 7200 4700
-NoConn ~ 7300 4700
-NoConn ~ 7500 4700
-NoConn ~ 7600 4700
-NoConn ~ 7700 4700
-NoConn ~ 7800 4700
-NoConn ~ 7500 5200
-NoConn ~ 7400 5200
-NoConn ~ 7300 5200
-NoConn ~ 7100 5200
-NoConn ~ 7000 5200
-NoConn ~ 6800 5200
-NoConn ~ 6700 5200
-NoConn ~ 6600 5200
+Text Label 7800 4100 0    60   ~ 0
+Rx3
+Text Label 7400 5200 3    60   ~ 0
+Rx3
+Text Label 7800 4000 0    60   ~ 0
+Tx3
+Text Label 7500 5200 3    60   ~ 0
+Tx3
+Text Label 5900 2650 2    60   ~ 0
+3v3
+Text Label 5900 2850 2    60   ~ 0
+3v3
+Text Label 7800 4700 1    60   ~ 0
+3v3
+Text Label 7000 4700 1    60   ~ 0
+3v3
+Text Label 7800 3800 0    60   ~ 0
+PTA1
+Text Label 7700 4700 1    60   ~ 0
+PTA1
+Text Label 7800 3600 0    60   ~ 0
+PTA2
+Text Label 7600 4700 1    60   ~ 0
+PTA2
+Text Label 5900 3600 2    60   ~ 0
+PTB2
+Text Label 6000 4700 1    60   ~ 0
+PTB2
+Text Label 5900 3700 2    60   ~ 0
+PTB3
+Text Label 6100 4700 1    60   ~ 0
+PTB3
+Text Label 7300 4000 2    60   ~ 0
+PTB19
+Text Label 7500 4700 1    60   ~ 0
+PTB19
+Text Label 7300 4100 2    60   ~ 0
+PTB18
+Text Label 7300 4700 1    60   ~ 0
+PTB18
+Text Label 7300 3700 2    60   ~ 0
+PTC9
+Text Label 7200 4700 1    60   ~ 0
+PTC9
+Text Label 5900 4100 2    60   ~ 0
+PTC10
+Text Label 6400 4700 1    60   ~ 0
+PTC10
+Text Label 5900 4000 2    60   ~ 0
+PTC11
+Text Label 6500 4700 1    60   ~ 0
+PTC11
+Text Label 7800 2850 0    60   ~ 0
+PTD0
+Text Label 7100 4700 1    60   ~ 0
+PTD0
+Text Label 7800 2550 0    60   ~ 0
+PTD1
+Text Label 6900 4700 1    60   ~ 0
+PTD1
+Text Label 7800 2750 0    60   ~ 0
+PTD2
+Text Label 6800 4700 1    60   ~ 0
+PTD2
+Text Label 7800 2650 0    60   ~ 0
+PTD3
+Text Label 6700 4700 1    60   ~ 0
+PTD3
+Text Label 7800 2150 0    60   ~ 0
+PTE24
+Text Label 7300 5200 3    60   ~ 0
+PTE24
+Text Label 7800 2250 0    60   ~ 0
+PTE25
+Text Label 7100 5200 3    60   ~ 0
+PTE25
+Text Label 5900 2750 2    60   ~ 0
+RST
+Text Label 6100 5200 3    60   ~ 0
+RST
+Text Label 7300 2550 2    60   ~ 0
+ADC1_DP0
+Text Label 6300 5200 3    60   ~ 0
+ADC1_DP0
+Text Label 6400 4100 0    60   ~ 0
+DAC0_OUT
+Text Label 6500 5200 3    60   ~ 0
+DAC0_OUT
+Text Label 6400 3800 0    60   ~ 0
+ADC1_DP1
+Text Label 6600 5200 3    60   ~ 0
+ADC1_DP1
+Text Label 6400 4000 0    60   ~ 0
+PTB20
+Text Label 6700 5200 3    60   ~ 0
+PTB20
+Text Label 5900 3800 2    60   ~ 0
+PTB10
+Text Label 6800 5200 3    60   ~ 0
+PTB10
+Text Label 7000 5200 3    60   ~ 0
+PTB11
+Text Label 5900 3900 2    60   ~ 0
+PTB11
 $EndSCHEMATC
