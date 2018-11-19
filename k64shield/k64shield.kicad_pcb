@@ -1,12 +1,18 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu18.04.1)
 
   (general
+<<<<<<< HEAD
     (links 52)
     (no_connects 0)
     (area 88.316999 54.026999 153.491001 124.535001)
     (thickness 1.6)
     (drawings 8)
     (tracks 308)
+=======
+    (thickness 1.6)
+    (drawings 0)
+    (tracks 57)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (zones 0)
     (modules 9)
     (nets 61)
@@ -61,12 +67,16 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 79.248 130.556)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -75,8 +85,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -222,6 +231,7 @@
     (add_net "Net-(J5-Pad5)")
   )
 
+<<<<<<< HEAD
   (module Mounting_Holes:MountingHole_2.7mm_M2.5 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BF1E3A9)
     (at 149.948 71.65)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
@@ -243,6 +253,10 @@
 
   (module Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm locked (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA18)
     (at 96.774 76.2)
+=======
+  (module Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA18)
+    (at 104.14 72.39)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x08 2.54mm double row")
     (path /5BEBC742)
@@ -311,8 +325,13 @@
     )
   )
 
+<<<<<<< HEAD
   (module Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm locked (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA28)
     (at 96.774 99.06)
+=======
+  (module Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA28)
+    (at 104.14 102.87)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x06 2.54mm double row")
     (path /5BEBC80A)
@@ -491,8 +510,13 @@
     )
   )
 
+<<<<<<< HEAD
   (module Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm locked (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA6C)
     (at 142.494 67.056)
+=======
+  (module Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA6C)
+    (at 147.32 67.31)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x10 2.54mm double row")
     (path /5BEBC857)
@@ -569,8 +593,13 @@
     )
   )
 
+<<<<<<< HEAD
   (module Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm locked (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA80)
     (at 142.494 93.98)
+=======
+  (module Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA80)
+    (at 147.32 97.79)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x08 2.54mm double row")
     (path /5BEBCB19)
@@ -640,7 +669,11 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA89)
+<<<<<<< HEAD
     (at 118.618 57.912 270)
+=======
+    (at 139.7 62.23 270)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /5BEBD558)
@@ -665,7 +698,7 @@
     (fp_line (start -1.8 11.95) (end 1.8 11.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 11.95) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 5.08 360) (layer F.Fab)
+    (fp_text user %R (at 0 5.08) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -686,7 +719,11 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5BEBBA90)
+<<<<<<< HEAD
     (at 97.028 57.912 90)
+=======
+    (at 113.03 62.23 90)
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5BEBE0BE)
@@ -711,6 +748,7 @@
     (fp_line (start -1.8 6.85) (end 1.8 6.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 6.85) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (fp_text user %R (at 0 2.54 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -720,6 +758,17 @@
       (net 9 /5V))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 28 /SIG))
+=======
+    (fp_text user %R (at 0 2.54 -180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 12 /GND))
+    (pad 2 thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 15 /5V))
+    (pad 3 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 80 /SIG))
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -727,6 +776,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module Mounting_Holes:MountingHole_2.7mm_M2.5 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BF1E112)
     (at 91.948 71.65)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
@@ -1462,4 +1512,64 @@
       )
     )
   )
+=======
+  (segment (start 148.169999 70.699999) (end 147.32 69.85) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 148.495001 71.025001) (end 148.169999 70.699999) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 148.495001 81.185001) (end 148.495001 71.025001) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 149.86 82.55) (end 148.495001 81.185001) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 147.32 69.85) (end 139.7 62.23) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 113.03 78.74) (end 113.03 62.23) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 106.68 85.09) (end 113.03 78.74) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 139.7 61.13) (end 136.99 58.42) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 139.7 62.23) (end 139.7 61.13) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 113.03 61.13) (end 113.03 62.23) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 115.74 58.42) (end 113.03 61.13) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 136.99 58.42) (end 115.74 58.42) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 106.68 85.09) (end 105.41 86.36) (width 0.25) (layer F.Cu) (net 12))
+  (segment (start 115.57 81.28) (end 115.57 62.23) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 106.68 90.17) (end 115.57 81.28) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 136.310001 61.380001) (end 137.16 62.23) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 133.80001 58.87001) (end 136.310001 61.380001) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 118.92999 58.87001) (end 133.80001 58.87001) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 115.57 62.23) (end 118.92999 58.87001) (width 0.25) (layer F.Cu) (net 15))
+  (segment (start 147.694003 106.774999) (end 145.955001 106.774999) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 148.495001 105.974001) (end 147.694003 106.774999) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 147.32 102.87) (end 148.495001 104.045001) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 148.495001 104.045001) (end 148.495001 105.974001) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 145.955001 106.774999) (end 142.24 110.49) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 142.24 124.46) (end 140.97 125.73) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 142.24 110.49) (end 142.24 124.46) (width 0.25) (layer F.Cu) (net 50))
+  (segment (start 144.78 124.46) (end 144.78 120.65) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 143.51 125.73) (end 144.78 124.46) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 149.010001 113.879999) (end 149.86 113.03) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 148.684999 114.205001) (end 149.010001 113.879999) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 148.684999 116.745001) (end 148.684999 114.205001) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 144.78 120.65) (end 148.684999 116.745001) (width 0.25) (layer F.Cu) (net 52))
+  (segment (start 146.117919 72.39) (end 147.32 72.39) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 145.580998 72.39) (end 146.117919 72.39) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 135.984999 62.794001) (end 145.580998 72.39) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 135.984999 61.855997) (end 135.984999 62.794001) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 135.184001 61.054999) (end 135.984999 61.855997) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 130.715001 61.054999) (end 135.184001 61.054999) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 129.54 62.23) (end 130.715001 61.054999) (width 0.25) (layer F.Cu) (net 60))
+  (segment (start 148.684999 101.694999) (end 148.684999 96.614999) (width 0.25) (layer F.Cu) (net 79))
+  (segment (start 149.86 102.87) (end 148.684999 101.694999) (width 0.25) (layer F.Cu) (net 79))
+  (segment (start 134.62 82.55) (end 134.62 62.23) (width 0.25) (layer F.Cu) (net 79))
+  (segment (start 148.684999 96.614999) (end 134.62 82.55) (width 0.25) (layer F.Cu) (net 79))
+  (segment (start 147.32 105.41) (end 144.78 105.41) (width 0.25) (layer F.Cu) (net 80))
+  (segment (start 118.11 78.74) (end 118.11 62.23) (width 0.25) (layer F.Cu) (net 80))
+  (segment (start 144.78 105.41) (end 118.11 78.74) (width 0.25) (layer F.Cu) (net 80))
+  (segment (start 147.694003 101.505001) (end 146.755999 101.505001) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 132.08 86.829002) (end 132.08 62.23) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 146.850998 101.6) (end 132.08 86.829002) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 147.789002 101.6) (end 146.850998 101.6) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 149.86 107.95) (end 151.13 106.68) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 148.495001 102.305999) (end 147.789002 101.6) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 148.495001 103.244003) (end 148.495001 102.305999) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 149.295999 104.045001) (end 148.495001 103.244003) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 150.234003 104.045001) (end 149.295999 104.045001) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 151.13 104.940998) (end 150.234003 104.045001) (width 0.25) (layer F.Cu) (net 83))
+  (segment (start 151.13 106.68) (end 151.13 104.940998) (width 0.25) (layer F.Cu) (net 83))
+
+>>>>>>> b2e543ddd01d74fa2dabe2e6ac2b8561af3b7605
 )
