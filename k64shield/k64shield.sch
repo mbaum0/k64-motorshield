@@ -216,7 +216,7 @@ Text Label 6000 4750 1    60   ~ 0
 PTB2
 Text Label 5900 3700 2    60   ~ 0
 PTB3
-Text Label 6100 4750 1    60   ~ 0
+Text Label 6300 5250 3    60   ~ 0
 PTB3
 Text Label 7300 4000 2    60   ~ 0
 PTB19
@@ -268,7 +268,7 @@ Text Label 6100 5250 3    60   ~ 0
 RST
 Text Label 7300 2550 2    60   ~ 0
 ADC1_DP0
-Text Label 6300 5250 3    60   ~ 0
+Text Label 6100 4750 1    60   ~ 0
 ADC1_DP0
 Text Label 6400 4100 0    60   ~ 0
 DAC0_OUT
@@ -290,4 +290,31 @@ Text Label 7000 5250 3    60   ~ 0
 PTB11
 Text Label 5900 3900 2    60   ~ 0
 PTB11
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J8
+U 1 1 5BF3F075
+P 8750 4750
+F 0 "J8" H 8800 5067 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 8800 4976 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 8750 4750 50  0001 C CNN
+F 3 "~" H 8750 4750 50  0001 C CNN
+	1    8750 4750
+	1    0    0    -1  
+$EndComp
+Text Label 8550 4650 2    50   ~ 0
+5V
+Text Label 9050 4650 0    50   ~ 0
+5V
+Text Label 8550 4850 2    50   ~ 0
+5V
+Text Label 9050 4850 0    50   ~ 0
+5V
+Text Label 8550 4750 2    50   ~ 0
+GND
+Text Label 9050 4750 0    50   ~ 0
+GND
+Text Label 9050 4950 0    50   ~ 0
+GND
+Text Label 8550 4950 2    50   ~ 0
+GND
 $EndSCHEMATC
